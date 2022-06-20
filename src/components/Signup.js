@@ -44,7 +44,7 @@ const Signup = () => {
   async function handleSignup() {
     setLoading(true);
     try {
-      await signup(data.email, data.password);
+      //await signup(data.email, data.password);
       notify("You signed up successfully", "success");
       navigate("/signin");
     } catch {
