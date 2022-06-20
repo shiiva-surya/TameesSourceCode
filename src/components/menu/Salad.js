@@ -29,6 +29,7 @@ const Salad = () => {
             cost={menu.cost}
             key={menu.id}
             details={menu.details}
+            calories = "140cal";
             id={menu.id}
           />
         ))}
